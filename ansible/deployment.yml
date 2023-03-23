@@ -9,7 +9,7 @@
     ansible_ssh_user: "ec2-user"
   tasks:
     - name: installing git
-      action: yum name=httpd state=present
+      action: yum name=git state=present
     - name: installing httpd
       action: yum name=httpd state=present
     - name: restarting httpd
