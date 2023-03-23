@@ -16,7 +16,7 @@
       service: name=httpd state=restarted
     - name: getting code into server
       git:
-        repo:
+        repo: "https://github.com/Sivaprasad-Software/my-app.git"
           dest: "/var/www/html/"
           version: "frntend"
 
