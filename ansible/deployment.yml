@@ -11,7 +11,7 @@
     - name: installing git
       action: yum name=git state=present
     - name: installing httpd
-      action: yum name=httpd state=present
+      yum: name=httpd state=present
     - name: restarting httpd
       service: name=httpd state=restarted
     - name: getting code into server
