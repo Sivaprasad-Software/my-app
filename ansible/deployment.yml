@@ -17,6 +17,6 @@
     - name: getting code into server
       git:
         repo: "https://github.com/Sivaprasad-Software/my-app.git"
-          dest: "/var/www/html/"
-          version: "frntend"
+        dest: "/var/www/html/"
+        version: "frntend"
 
